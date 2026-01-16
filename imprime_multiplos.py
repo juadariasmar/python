@@ -10,4 +10,17 @@ def imprimeMultiplos(n):
 
     return i
 
-print(imprimeMultiplos(3))
+def imprime_tabla(n):
+
+    i = 1 
+
+    while i <= 6:
+
+        imprimeMultiplos(n)
+
+        i += 1
+
+    return i
+
+
+print(imprime_tabla(12))
